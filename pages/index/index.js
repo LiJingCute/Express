@@ -4,6 +4,9 @@ const app = getApp()
 
 Page({
   data: {
+    imageList: [{ pic: "https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/ad.jpg?sign=6c1c406cdf1201e0565109538c43f493&t=1542775780" },
+    { pic: "https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/a22.jpg?sign=7052fea5df9db31e671f55d073d3a059&t=1542775807" },
+    { pic: "https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/a3.jpg?sign=4089fa08789d318b21cdcd363425aeb3&t=1542775829" }],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,

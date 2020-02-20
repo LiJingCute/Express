@@ -2,10 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
+    "pages/post/post",
     "pages/getExpress/getExpress",
     "pages/goExpress/goExpress",
-    "pages/mine/mine",
-    "pages/post/post"
+    "pages/mine/mine"
   ],
   "window": {
     "backgroundTextStyle": "light",

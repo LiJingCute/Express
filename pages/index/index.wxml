@@ -9,7 +9,52 @@
       </view>
        <view class="cu-avatar " style="margin-right:0.5rem;width:50rpx;height:50rpx;background-image:url(https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/5.jpg?sign=62596b8fb882fafa4735a7bb02ec48cf&t=1542775874);"></view>
     </view>
+
+    <!-- 第一排图标 -->
+  <view class="weui-tabbar" style="background:white">
+    <icon href="#" class="weui-tabbar__item weui-tabbar__item_on">
+      <icon>
+        <image mode="aspectFit" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1681163837,3822879690&fm=26&gp=0.jpg" alt="" class="weui-tabbar__icon"></image>
+      </icon>
+      <icon class="weui-tabbar__label" bindtap='scanCode'>会员</icon>
+    </icon>
+    <icon href="#" class="weui-tabbar__item weui-tabbar__item_on" >
+      <icon>
+        <image mode="aspectFit" src="https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/2.jpg?sign=2c956d50da50cdf22b74812d1cc51b12&t=1542776039" alt="" class="weui-tabbar__icon"></image>
+      </icon>
+      <icon class="weui-tabbar__label" >跑腿代购</icon>
+    </icon>
+    <icon href="#" class="weui-tabbar__item weui-tabbar__item_on" >
+      <icon>
+        <image mode="aspectFit" src="https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/3.jpg?sign=a9cbe061ac103a8e380f73f8c56cec2c&t=1542776057" alt="" class="weui-tabbar__icon"></image>
+      </icon>
+      <icon class="weui-tabbar__label">精灵书屋</icon>
+    </icon>
+    <icon href="#" class="weui-tabbar__item weui-tabbar__item_on" >
+      <icon>
+        <image mode="aspectFit" src="https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/4.jpg?sign=da2382ecf07e72710947db853406d600&t=1542776076" alt="" class="weui-tabbar__icon"></image>
+      </icon>
+      <icon class="weui-tabbar__label">领裹酱</icon>
+    </icon>
+  </view>
    </view>
-  <!-- 第一排图标 -->
   
+<!-- 轮播 -->
+  <!-- <swiper class="ad" indicator-dots='true' indicator-active-color='blue' autoplay='true'>
+      <swiper-item wx:for="{{imageList}}" wx:key="index" wx:for-item="item">
+        <image src="{{item.pic}}" mode="widthFix" bind:tap="tapImage" class='ad-img'></image>
+      </swiper-item>
+  </swiper> -->
+  <!-- nav框 -->
+  <view class='package-item'>
+      <view class='item-wrapper'>
+      <text class='item-title'>有一个神秘包裹想你飞来</text>
+        <image class='item-img' mode='aspectFill' src='https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/6.jpg?sign=e713b1367255f2bd83f8098aaac630d4&t=1542776179'></image>
+        <view class="item-block">
+          <text class='item-text1'>已放入裹裹自提柜</text>
+          <text class='item-text2'>菜鸟裹裹</text>
+          <text class='item-text3'>神秘包裹已送至裹裹自提柜</text>
+        </view>
+      </view>
+  </view>
 </view>
