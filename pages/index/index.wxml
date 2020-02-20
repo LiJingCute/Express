@@ -1,0 +1,15 @@
+<view class="container">
+  <view class="box">
+  <!-- 搜索框 -->
+    <view class="cu-bar search bg-white">
+      <view class="cu-avatar " style="width:50rpx;height:50rpx;background-image:url(https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/saoma.jpg?sign=22ecf7d2269084181e8ace24c1319b06&t=1542775996);"></view>
+      <view class="search-form round">
+        <text class="cuIcon-search"></text>
+        <input type="text" placeholder="全网包裹一键查" confirm-type="search"></input>
+      </view>
+       <view class="cu-avatar " style="margin-right:0.5rem;width:50rpx;height:50rpx;background-image:url(https://636c-cloud-912718-1257892962.tcb.qcloud.la/images2/5.jpg?sign=62596b8fb882fafa4735a7bb02ec48cf&t=1542775874);"></view>
+    </view>
+   </view>
+  <!-- 第一排图标 -->
+  
+</view>
